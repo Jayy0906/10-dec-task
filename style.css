@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('imgs/header.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+.hero {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.about-us {
+    background-color: #f7fcfd; /* Light blue background */
+}
+
+.about-us h2 {
+    font-size: 2.5rem;
+}
+
+.about-us p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.about-us .text-danger {
+    color: #ff4b5c;
+}
+
+.about-us i {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.expertise h2 {
+    font-size: 2.5rem;
+}
+
+.expertise .card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.expertise .card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.expertise .card-body h5 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.expertise .card-body p {
+    font-size: 0.9rem;
+    color: #6c757d; /* Bootstrap text-muted color */
+}
+
+.our-products {
+    background-color: #f7fcfd; /* Light blue background */
+}
+
+.testimonials h2 {
+    font-size: 2.5rem;
+}
+
+.testimonials img {
+    border: 3px solid #ff4b5c; /* Red border around image */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials .testimonial-text {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.testimonials .quote {
+    color: #ff4b5c; /* Red quote mark */
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.testimonials h5 {
+    margin-top: 15px;
+    color: #000; /* Black for name */
+}
+
+.testimonials p.text-muted {
+    margin-top: -10px;
+}
+
+.testimonials a {
+    text-decoration: none;
+    color: #6c757d; /* Light gray arrows */
+}
+
+.testimonials a:hover {
+    color: #ff4b5c; /* Red color on hover */
+}
+
+.info-section {
+    background-color: #2c3e50; /* Dark blue background */
+    color: #ffffff; /* White text color */
+}
+
+.info-section p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.info-section h5 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.info-section .social-icons a {
+    color: #ffffff;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.info-section .social-icons a:hover {
+    color: #ff4b5c; /* Red hover effect */
+}
+
+.contact-us {
+    background-color: #f7fcfd; /* Light blue background */
+}
+
+.contact-us h2 {
+    font-size: 2.5rem;
+}
+
+.contact-us .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+}
+
+.contact-us textarea.form-control {
+    resize: none;
+}
+
+.contact-us button {
+    background-color: #ff4b5c; /* Red button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.contact-us button:hover {
+    background-color: #e63946;
+}
+
+.contact-us .social-icons a {
+    color: #6c757d; /* Gray social icons */
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.contact-us .social-icons a:hover {
+    color: #ff4b5c; /* Red hover effect */
+}
